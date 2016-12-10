@@ -44,7 +44,6 @@ import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
 import com.github.shadowsocks.database._
 import com.github.shadowsocks.utils.CloseUtils._
 import com.github.shadowsocks.utils._
-import com.google.android.gms.ads.{AdRequest, AdSize, AdView}
 
 import scala.util.Random
 
@@ -183,7 +182,6 @@ class Shadowsocks extends AppCompatActivity with ServiceBoundContext {
   private var rxRateText: TextView = _
   private lazy val greyTint = ContextCompat.getColorStateList(this, R.color.material_blue_grey_700)
   private lazy val greenTint = ContextCompat.getColorStateList(this, R.color.material_green_700)
-  private var adView: AdView = _
   private lazy val preferences =
     getFragmentManager.findFragmentById(android.R.id.content).asInstanceOf[ShadowsocksSettings]
 
@@ -388,25 +386,6 @@ class Shadowsocks extends AppCompatActivity with ServiceBoundContext {
   }
 
   private def updatePreferenceScreen(profile: Profile) {
-    if (profile.host == "198.199.101.152") if (adView == null) {
-      adView = new AdView(this)
-      adView.setAdUnitId("ca-app-pub-9097031975646651/7760346322")
-      adView.setAdSize(AdSize.SMART_BANNER)
-      preferences.getView.asInstanceOf[ViewGroup].addView(adView, 1)
-
-      // Demographics
-      val random = new Random()
-      val adBuilder = new AdRequest.Builder()
-      adBuilder.setGender(AdRequest.GENDER_MALE)
-      val year = 1975 + random.nextInt(40)
-      val month = 1 + random.nextInt(12)
-      val day = random.nextInt(28)
-      adBuilder.setBirthday(new GregorianCalendar(year, month, day).getTime)
-
-      // Load Ad
-      adView.loadAd(adBuilder.build())
-    } else adView.setVisibility(View.VISIBLE) else if (adView != null) adView.setVisibility(View.GONE)
-
     preferences.setProfile(profile)
   }
 

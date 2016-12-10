@@ -38,7 +38,6 @@ libraryDependencies ++=
   "com.github.clans" % "fab" % "1.6.4" ::
   "com.github.jorgecastilloprz" % "fabprogresscircle" % "1.01" ::
   "com.github.kevinsawicki" % "http-request" % "6.0" ::
-  "com.google.android.gms" % "play-services-ads" % "10.0.1" ::
   "com.google.android.gms" % "play-services-analytics" % "10.0.1" ::
   "com.google.android.gms" % "play-services-gcm" % "10.0.1" ::
   "com.j256.ormlite" % "ormlite-android" % "5.0" ::
