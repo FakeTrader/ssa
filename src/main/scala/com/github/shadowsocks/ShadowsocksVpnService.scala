@@ -291,7 +291,7 @@ class ShadowsocksVpnService extends VpnService with BaseService {
     val reject = if (profile.ipv6) "224.0.0.0/3" else "224.0.0.0/3, ::/0"
     val protect = "protect = \"" + protectPath +"\";"
     val conf = profile.route match {
-      case Route.BYPASS_CHN | Route.BYPASS_LAN_CHN | Route.GFWLIST =>
+      case Route.ACCNET | Route.BYPASS_CHN | Route.BYPASS_LAN_CHN | Route.GFWLIST =>
         ConfigUtils.PDNSD_DIRECT.formatLocal(Locale.ENGLISH, protect, getApplicationInfo.dataDir,
           "0.0.0.0", profile.localPort + 53, "114.114.114.114, 223.5.5.5, 1.2.4.8",
           getBlackList, reject, profile.localPort + 63, reject)
