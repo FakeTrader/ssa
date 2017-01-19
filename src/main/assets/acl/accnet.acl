@@ -31,6 +31,7 @@
 ^(.*\.)?ipip\.net$
 ^(.*\.)?edu\.cn$
 ^(.*\.)?com\.cn$
+^(.*\.)?cn$
 ^(.*\.)?onecloud\.media$
 ^(.*\.)?javhihi\.com$
 ^(.*\.)?jav789\.com$
