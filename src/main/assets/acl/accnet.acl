@@ -27,6 +27,7 @@
 ^(.*\.)?staticfile\.com$
 ^(.*\.)?alicdn\.com$
 ^(.*\.)?clouddn\.com$
+^(.*\.)?wechat\.com$
 ^(.*\.)?hostloc\.com$
 ^(.*\.)?ipip\.net$
 ^(.*\.)?edu\.cn$
