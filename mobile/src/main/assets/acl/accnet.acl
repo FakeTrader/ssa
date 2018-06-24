@@ -1,6 +1,7 @@
 [proxy_all]
 
 [black_list]
+^(.*\.)?365-848\.com$
 ^(.*\.)?baidu\.com$
 ^(.*\.)?sina\.com\.cn$
 ^(.*\.)?sina\.cn$
