@@ -1,6 +1,7 @@
 [proxy_all]
 
 [black_list]
+(^|\.)365pushodds\.com$
 (^|\.)365-848\.com$
 (^|\.)356884\.com$
 (^|\.)baidu\.com$
