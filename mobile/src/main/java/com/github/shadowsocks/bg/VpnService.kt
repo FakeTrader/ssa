@@ -215,7 +215,7 @@ class VpnService : BaseVpnService(), LocalDnsService.Interface {
         }
 
         when (profile.route) {
-            Acl.ALL, Acl.BYPASS_CHN, Acl.CUSTOM_RULES -> builder.addRoute("0.0.0.0", 0)
+            Acl.ALL, Acl.ACCNET, Acl.BYPASS_CHN, Acl.CUSTOM_RULES -> builder.addRoute("0.0.0.0", 0)
             else -> {
                 resources.getStringArray(R.array.bypass_private_route).forEach {
                     val subnet = Subnet.fromString(it)!!

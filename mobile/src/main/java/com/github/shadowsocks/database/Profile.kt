@@ -115,7 +115,7 @@ class Profile : Serializable {
     var route: String = "all"
 
     @DatabaseField
-    var remoteDns: String = "8.8.8.8"
+    var remoteDns: String = "1.1.1.1"
 
     @DatabaseField
     var proxyApps: Boolean = false

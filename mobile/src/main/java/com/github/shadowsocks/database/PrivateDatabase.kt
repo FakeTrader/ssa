@@ -107,7 +107,7 @@ object PrivateDatabase : OrmLiteSqliteOpenHelper(app, Key.DB_PROFILE, null, 25) 
             }
 
             if (oldVersion < 21) {
-                profileDao.executeRawNoArgs("ALTER TABLE `profile` ADD COLUMN remoteDns VARCHAR DEFAULT '8.8.8.8';")
+                profileDao.executeRawNoArgs("ALTER TABLE `profile` ADD COLUMN remoteDns VARCHAR DEFAULT '1.1.1.1';")
             }
 
             if (oldVersion < 17) {

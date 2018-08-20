@@ -36,6 +36,7 @@ class Acl {
     companion object {
         const val TAG = "Acl"
         const val ALL = "all"
+        const val ACCNET = "accnet"
         const val BYPASS_LAN = "bypass-lan"
         const val BYPASS_CHN = "bypass-china"
         const val BYPASS_LAN_CHN = "bypass-lan-china"

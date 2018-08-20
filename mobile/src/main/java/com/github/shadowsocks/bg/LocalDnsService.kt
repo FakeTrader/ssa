@@ -70,7 +70,7 @@ object LocalDnsService {
                 ))
 
                 when (profile.route) {
-                    Acl.BYPASS_CHN, Acl.BYPASS_LAN_CHN, Acl.GFWLIST, Acl.CUSTOM_RULES -> config
+                    Acl.ACCNET, Acl.BYPASS_CHN, Acl.BYPASS_LAN_CHN, Acl.GFWLIST, Acl.CUSTOM_RULES -> config
                             .put("PrimaryDNS", localDns)
                             .put("AlternativeDNS", remoteDns)
                             .put("IPNetworkFile", "china_ip_list.txt")
