@@ -112,7 +112,7 @@ class Profile : Serializable {
     var method: String = "aes-256-cfb"
 
     @DatabaseField
-    var route: String = "all"
+    var route: String = "accnet"
 
     @DatabaseField
     var remoteDns: String = "1.1.1.1"
@@ -127,7 +127,7 @@ class Profile : Serializable {
     var udpdns: Boolean = false
 
     @DatabaseField
-    var ipv6: Boolean = true
+    var ipv6: Boolean = false
 
     @DatabaseField(dataType = DataType.LONG_STRING)
     var individual: String = ""
