@@ -51,6 +51,10 @@ import com.github.shadowsocks.preference.BottomSheetPreferenceDialogFragment
 import com.github.shadowsocks.preference.DataStore
 import com.github.shadowsocks.preference.IconListPreference
 import com.github.shadowsocks.utils.*
+import com.google.android.gms.analytics.GoogleAnalytics
+import com.google.android.gms.analytics.HitBuilders
+import com.google.android.gms.analytics.StandardExceptionParser
+import com.google.android.gms.analytics.Tracker
 import com.google.firebase.FirebaseApp
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.j256.ormlite.logger.LocalLog
@@ -67,6 +71,7 @@ class App : Application() {
     val handler by lazy { Handler(Looper.getMainLooper()) }
     val deviceContext: Context by lazy { if (Build.VERSION.SDK_INT < 24) this else DeviceContext(this) }
     val remoteConfig: FirebaseRemoteConfig by lazy { FirebaseRemoteConfig.getInstance() }
+    private val tracker: Tracker by lazy { GoogleAnalytics.getInstance(deviceContext).newTracker(R.xml.tracker) }
     private val exceptionParser by lazy { StandardExceptionParser(this, null) }
     val info: PackageInfo by lazy { getPackageInfo(packageName) }
     val directBootSupported by lazy {
