@@ -93,21 +93,6 @@ class App : Application() {
         return result
     }
 
-    // send event
-    fun track(category: String, action: String) = tracker.send(HitBuilders.EventBuilder()
-            .setCategory(category)
-            .setAction(action)
-            .setLabel(BuildConfig.VERSION_NAME)
-            .build())
-    fun track(t: Throwable) = track(Thread.currentThread(), t)
-    fun track(thread: Thread, t: Throwable) {
-        tracker.send(HitBuilders.ExceptionBuilder()
-                .setDescription("${exceptionParser.getDescription(thread.name, t)} - ${t.message}")
-                .setFatal(false)
-                .build())
-        t.printStackTrace()
-    }
-
     override fun onCreate() {
         super.onCreate()
         app = this
