@@ -1,4 +1,4 @@
-# Shadowsocks for Android
+# Shadowsocks for Android Mod
 
 [![Build Status](https://api.travis-ci.org/eegod/ssa.svg)](https://travis-ci.org/eegod/ssa)
 
@@ -9,8 +9,8 @@ A [shadowsocks](http://shadowsocks.org) client for Android, written in Kotlin.
 - JDK 1.8
 - Go 1.4+
 - Android SDK
-  * Build Tools 27+
-  * Android NDK r16+
+    - Build Tools 27+
+    - Android NDK r16+
 
 ## Build
 
@@ -22,7 +22,11 @@ A [shadowsocks](http://shadowsocks.org) client for Android, written in Kotlin.
 Build it using Android Studio or gradle script
 
 ```bash
+# debug
 ./gradlew assembleDebug check
+
+# release
+./gradlew assembleRelease
 ```
 
 Add your keystore to sign the app:
@@ -50,10 +54,7 @@ android {
 }
 ```
 
-Build release
 
-```bash
-./gradlew assembleRelease
 ```
 
 * * *
