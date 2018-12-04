@@ -29,29 +29,17 @@ Build it using Android Studio or gradle script
 ./gradlew assembleRelease
 ```
 
-Add your keystore to sign the app:
+Build signed apk
 
-```
-android {
-    ...
-    signingConfigs {
-        releaseConfig {
-            keyAlias '<key_alias>'
-            keyPassword '<key_passwors>'
-            storeFile file('<path_to_keystore/filename>')
-            storePassword '<keystore_passwprd>'
-        }
-    }
-    ...
-    buildTypes {
-        ...
-        release {
-            ...
-            signingConfig signingConfigs.releaseConfig
-            ...
-        }
-    ...
-}
+```bash
+# Add your keystore info to env:
+export STORE_FILE="file_path"
+export STORE_PASSWORD="yourpassword"
+export KEY_ALIAS="youralias"
+export KEY_PASSWORD="yourpassword"
+
+./gradlew assembleRelease -Pandroid.injected.signing.store.file=$STORE_FILE -Pandroid.injected.signing.store.password=$STORE_PASSWORD -Pandroid.injected.signing.key.alias=$KEY_ALIAS -Pandroid.injected.signing.key.password=$KEY_PASSWORD
+
 ```
 
 

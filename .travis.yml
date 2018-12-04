@@ -30,7 +30,8 @@ install:
       >/dev/null
 
 script:
-    - ./gradlew assembleRelease
+    - ./gradlew assembleRelease -Pandroid.injected.signing.store.file=$STORE_FILE -Pandroid.injected.signing.store.password=$STORE_PASSWORD -Pandroid.injected.signing.key.alias=$KEY_ALIAS -Pandroid.injected.signing.key.password=$KEY_PASSWORD
+
 
 deploy:
   provider: releases
@@ -46,4 +47,3 @@ deploy:
 before_install:
   - openssl aes-256-cbc -K $encrypted_f8583b3062bf_key -iv $encrypted_f8583b3062bf_iv -in mobile/hide.tar.enc -out mobile/hide.tar -d
   - pushd mobile && tar xf hide.tar && popd
-  - bash mobile/sing.sh
