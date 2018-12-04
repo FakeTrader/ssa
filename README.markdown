@@ -16,7 +16,7 @@ A [shadowsocks](http://shadowsocks.org) client for Android, written in Kotlin.
 
 - Set environment variable `ANDROID_HOME` to `/path/to/android-sdk`
 - (optional) Set environment variable `ANDROID_NDK_HOME` to `/path/to/android-ndk` (default: `$ANDROID_HOME/ndk-bundle`)
-- Set environment variable `GOROOT_BOOTSTRAP` to `/path/to/go`
+- Set environment variable `GOROOT_BOOTSTRAP` to `/path/to/go` (`$GOROOT`)
 - Clone the repo using `git clone --recurse-submodules <repo>` or update submodules using `git submodule update --init --recursive`
 
 Build it using Android Studio or gradle script
