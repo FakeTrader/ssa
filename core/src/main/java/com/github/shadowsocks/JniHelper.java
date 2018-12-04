@@ -36,7 +36,7 @@
  *
  */
 
-package com.github.shadowsocks;
+package com.github.ssa;
 
 import android.os.Build;
 import android.support.annotation.NonNull;

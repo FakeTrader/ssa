@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.acl
+package com.github.ssa.acl
 
 import android.util.Log
 import com.evernote.android.job.Job

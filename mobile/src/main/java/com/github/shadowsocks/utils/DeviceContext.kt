@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.utils
+package com.github.ssa.utils
 
 import android.annotation.TargetApi
 import android.content.Context

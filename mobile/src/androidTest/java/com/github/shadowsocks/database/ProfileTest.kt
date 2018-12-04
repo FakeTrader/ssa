@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.database
+package com.github.ssa.database
 
 import android.net.Uri
 import org.junit.Assert

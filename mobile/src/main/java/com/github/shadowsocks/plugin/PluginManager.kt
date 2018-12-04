@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.plugin
+package com.github.ssa.plugin
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -30,8 +30,8 @@ import android.net.Uri
 import android.os.Bundle
 import android.util.Base64
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.utils.Commandline
+import com.github.ssa.App.Companion.app
+import com.github.ssa.utils.Commandline
 import eu.chainfire.libsuperuser.Shell
 import java.io.File
 import java.io.FileNotFoundException
@@ -126,7 +126,7 @@ object PluginManager {
         // add other plugin types here
 
         throw if (throwable != null) throwable else
-            FileNotFoundException(app.getString(com.github.shadowsocks.R.string.plugin_unknown, options.id))
+            FileNotFoundException(app.getString(com.github.ssa.R.string.plugin_unknown, options.id))
     }
 
     private fun initNative(options: PluginOptions): String? {

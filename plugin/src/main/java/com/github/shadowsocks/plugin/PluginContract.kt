@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.plugin
+package com.github.ssa.plugin
 
 /**
  * The contract between the plugin provider and host. Contains definitions for the supported actions, extras, etc.
@@ -29,61 +29,61 @@ object PluginContract {
     /**
      * ContentProvider Action: Used for NativePluginProvider.
      *
-     * Constant Value: "com.github.shadowsocks.plugin.ACTION_NATIVE_PLUGIN"
+     * Constant Value: "com.github.ssa.plugin.ACTION_NATIVE_PLUGIN"
      */
-    const val ACTION_NATIVE_PLUGIN = "com.github.shadowsocks.plugin.ACTION_NATIVE_PLUGIN"
+    const val ACTION_NATIVE_PLUGIN = "com.github.ssa.plugin.ACTION_NATIVE_PLUGIN"
 
     /**
      * Activity Action: Used for ConfigurationActivity.
      *
-     * Constant Value: "com.github.shadowsocks.plugin.ACTION_CONFIGURE"
+     * Constant Value: "com.github.ssa.plugin.ACTION_CONFIGURE"
      */
-    const val ACTION_CONFIGURE = "com.github.shadowsocks.plugin.ACTION_CONFIGURE"
+    const val ACTION_CONFIGURE = "com.github.ssa.plugin.ACTION_CONFIGURE"
     /**
      * Activity Action: Used for HelpActivity or HelpCallback.
      *
-     * Constant Value: "com.github.shadowsocks.plugin.ACTION_HELP"
+     * Constant Value: "com.github.ssa.plugin.ACTION_HELP"
      */
-    const val ACTION_HELP = "com.github.shadowsocks.plugin.ACTION_HELP"
+    const val ACTION_HELP = "com.github.ssa.plugin.ACTION_HELP"
 
     /**
      * The lookup key for a string that provides the plugin entry binary.
      *
-     * Example: "/data/data/com.github.shadowsocks.plugin.obfs_local/lib/libobfs-local.so"
+     * Example: "/data/data/com.github.ssa.plugin.obfs_local/lib/libobfs-local.so"
      *
-     * Constant Value: "com.github.shadowsocks.plugin.EXTRA_ENTRY"
+     * Constant Value: "com.github.ssa.plugin.EXTRA_ENTRY"
      */
-    const val EXTRA_ENTRY = "com.github.shadowsocks.plugin.EXTRA_ENTRY"
+    const val EXTRA_ENTRY = "com.github.ssa.plugin.EXTRA_ENTRY"
     /**
      * The lookup key for a string that provides the options as a string.
      *
      * Example: "obfs=http;obfs-host=www.baidu.com"
      *
-     * Constant Value: "com.github.shadowsocks.plugin.EXTRA_OPTIONS"
+     * Constant Value: "com.github.ssa.plugin.EXTRA_OPTIONS"
      */
-    const val EXTRA_OPTIONS = "com.github.shadowsocks.plugin.EXTRA_OPTIONS"
+    const val EXTRA_OPTIONS = "com.github.ssa.plugin.EXTRA_OPTIONS"
     /**
      * The lookup key for a CharSequence that provides user relevant help message.
      *
      * Example: "obfs=<http></http>|tls>            Enable obfuscating: HTTP or TLS (Experimental).
      * obfs-host=<host_name>      Hostname for obfuscating (Experimental)."
      *
-     * Constant Value: "com.github.shadowsocks.plugin.EXTRA_HELP_MESSAGE"
+     * Constant Value: "com.github.ssa.plugin.EXTRA_HELP_MESSAGE"
     </host_name> */
-    const val EXTRA_HELP_MESSAGE = "com.github.shadowsocks.plugin.EXTRA_HELP_MESSAGE"
+    const val EXTRA_HELP_MESSAGE = "com.github.ssa.plugin.EXTRA_HELP_MESSAGE"
 
     /**
      * The metadata key to retrieve plugin id. Required for plugins.
      *
-     * Constant Value: "com.github.shadowsocks.plugin.id"
+     * Constant Value: "com.github.ssa.plugin.id"
      */
-    const val METADATA_KEY_ID = "com.github.shadowsocks.plugin.id"
+    const val METADATA_KEY_ID = "com.github.ssa.plugin.id"
     /**
      * The metadata key to retrieve default configuration. Default value is empty.
      *
-     * Constant Value: "com.github.shadowsocks.plugin.default_config"
+     * Constant Value: "com.github.ssa.plugin.default_config"
      */
-    const val METADATA_KEY_DEFAULT_CONFIG = "com.github.shadowsocks.plugin.default_config"
+    const val METADATA_KEY_DEFAULT_CONFIG = "com.github.ssa.plugin.default_config"
 
     const val METHOD_GET_EXECUTABLE = "shadowsocks:getExecutable"
 
@@ -114,5 +114,5 @@ object PluginContract {
     /**
      * The authority for general plugin actions.
      */
-    const val AUTHORITY = "com.github.shadowsocks"
+    const val AUTHORITY = "com.github.ssa"
 }

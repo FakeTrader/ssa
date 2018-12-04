@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.app.KeyguardManager
 import android.content.BroadcastReceiver
@@ -29,10 +29,10 @@ import android.net.VpnService
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.aidl.IShadowsocksService
-import com.github.shadowsocks.bg.BaseService
-import com.github.shadowsocks.utils.broadcastReceiver
+import com.github.ssa.App.Companion.app
+import com.github.ssa.aidl.IShadowsocksService
+import com.github.ssa.bg.BaseService
+import com.github.ssa.utils.broadcastReceiver
 
 class VpnRequestActivity : AppCompatActivity(), ShadowsocksConnection.Interface {
     companion object {

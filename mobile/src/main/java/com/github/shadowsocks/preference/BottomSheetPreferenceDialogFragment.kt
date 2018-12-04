@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.preference
+package com.github.ssa.preference
 
 import android.app.Dialog
 import android.content.ActivityNotFoundException
@@ -37,7 +37,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.github.shadowsocks.R
+import com.github.ssa.R
 
 class BottomSheetPreferenceDialogFragment : PreferenceDialogFragmentCompat() {
     private inner class IconListViewHolder(val dialog: BottomSheetDialog, view: View) : RecyclerView.ViewHolder(view),

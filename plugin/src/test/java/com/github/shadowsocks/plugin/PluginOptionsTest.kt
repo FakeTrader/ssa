@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.plugin
+package com.github.ssa.plugin
 
 import org.junit.Assert
 import org.junit.Test

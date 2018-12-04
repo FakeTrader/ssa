@@ -50,7 +50,7 @@ afterEvaluate { project ->
             mavenDeployer {
                 beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
 
-                pom.groupId = 'com.github.shadowsocks'
+                pom.groupId = 'com.github.ssa'
                 pom.artifactId = 'plugin'
                 pom.version = android.defaultConfig.versionName
 

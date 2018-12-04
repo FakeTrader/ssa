@@ -1,4 +1,4 @@
-package com.github.shadowsocks.plugin;
+package com.github.ssa.plugin;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.github.shadowsocks.plugin.test", appContext.getPackageName());
+        assertEquals("com.github.ssa.plugin.test", appContext.getPackageName());
     }
 }

@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.acl
+package com.github.ssa.acl
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -40,15 +40,15 @@ import android.view.*
 import android.widget.*
 import com.futuremind.recyclerviewfastscroll.FastScroller
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.MainActivity
-import com.github.shadowsocks.R
-import com.github.shadowsocks.ToolbarFragment
-import com.github.shadowsocks.bg.BaseService
-import com.github.shadowsocks.utils.Subnet
-import com.github.shadowsocks.utils.asIterable
-import com.github.shadowsocks.utils.resolveResourceId
-import com.github.shadowsocks.widget.UndoSnackbarManager
+import com.github.ssa.App.Companion.app
+import com.github.ssa.MainActivity
+import com.github.ssa.R
+import com.github.ssa.ToolbarFragment
+import com.github.ssa.bg.BaseService
+import com.github.ssa.utils.Subnet
+import com.github.ssa.utils.asIterable
+import com.github.ssa.utils.resolveResourceId
+import com.github.ssa.widget.UndoSnackbarManager
 import java.net.IDN
 import java.net.MalformedURLException
 import java.net.URL
@@ -58,9 +58,9 @@ class CustomRulesFragment : ToolbarFragment(), Toolbar.OnMenuItemClickListener, 
     companion object {
         private const val TEMPLATE_REGEX_DOMAIN = "(^|\\.)%s$"
 
-        private const val SELECTED_SUBNETS = "com.github.shadowsocks.acl.CustomRulesFragment.SELECTED_SUBNETS"
-        private const val SELECTED_HOSTNAMES = "com.github.shadowsocks.acl.CustomRulesFragment.SELECTED_HOSTNAMES"
-        private const val SELECTED_URLS = "com.github.shadowsocks.acl.CustomRulesFragment.SELECTED_URLS"
+        private const val SELECTED_SUBNETS = "com.github.ssa.acl.CustomRulesFragment.SELECTED_SUBNETS"
+        private const val SELECTED_HOSTNAMES = "com.github.ssa.acl.CustomRulesFragment.SELECTED_HOSTNAMES"
+        private const val SELECTED_URLS = "com.github.ssa.acl.CustomRulesFragment.SELECTED_URLS"
 
         // unescaped: (?<=^(\(\^\|\\\.\)|\^\(\.\*\\\.\)\?)).*(?=\$$)
         private val PATTERN_DOMAIN = "(?<=^(\\(\\^\\|\\\\\\.\\)|\\^\\(\\.\\*\\\\\\.\\)\\?)).*(?=\\\$\$)".toRegex()

@@ -18,15 +18,15 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.preference
+package com.github.ssa.preference
 
 import android.os.Binder
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.database.PrivateDatabase
-import com.github.shadowsocks.database.PublicDatabase
-import com.github.shadowsocks.utils.DirectBoot
-import com.github.shadowsocks.utils.Key
-import com.github.shadowsocks.utils.parsePort
+import com.github.ssa.App.Companion.app
+import com.github.ssa.database.PrivateDatabase
+import com.github.ssa.database.PublicDatabase
+import com.github.ssa.utils.DirectBoot
+import com.github.ssa.utils.Key
+import com.github.ssa.utils.parsePort
 
 object DataStore {
     val publicStore = OrmLitePreferenceDataStore(PublicDatabase.kvPairDao)

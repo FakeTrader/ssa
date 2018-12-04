@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.content.ComponentName
 import android.content.Context
@@ -26,10 +26,10 @@ import android.content.Intent
 import android.content.ServiceConnection
 import android.os.IBinder
 import android.os.RemoteException
-import com.github.shadowsocks.aidl.IShadowsocksService
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
-import com.github.shadowsocks.bg.BaseService
-import com.github.shadowsocks.utils.Action
+import com.github.ssa.aidl.IShadowsocksService
+import com.github.ssa.aidl.IShadowsocksServiceCallback
+import com.github.ssa.bg.BaseService
+import com.github.ssa.utils.Action
 import java.util.*
 
 class ShadowsocksConnection(private val instance: Interface) : ServiceConnection {

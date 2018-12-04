@@ -18,16 +18,16 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.os.Build
 import android.os.SystemClock
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.BuildConfig
-import com.github.shadowsocks.JniHelper
-import com.github.shadowsocks.utils.Commandline
-import com.github.shadowsocks.utils.thread
+import com.github.ssa.App.Companion.app
+import com.github.ssa.BuildConfig
+import com.github.ssa.JniHelper
+import com.github.ssa.utils.Commandline
+import com.github.ssa.utils.thread
 import java.io.File
 import java.io.IOException
 import java.io.InputStream

@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.database
+package com.github.ssa.database
 
 import com.j256.ormlite.field.DataType
 import com.j256.ormlite.field.DatabaseField

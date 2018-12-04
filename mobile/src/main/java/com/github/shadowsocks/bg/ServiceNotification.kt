@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.app.KeyguardManager
 import android.app.NotificationManager
@@ -32,11 +32,11 @@ import android.os.PowerManager
 import android.support.v4.app.NotificationCompat
 import android.support.v4.content.ContextCompat
 import android.text.format.Formatter
-import com.github.shadowsocks.MainActivity
-import com.github.shadowsocks.R
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
-import com.github.shadowsocks.utils.Action
-import com.github.shadowsocks.utils.broadcastReceiver
+import com.github.ssa.MainActivity
+import com.github.ssa.R
+import com.github.ssa.aidl.IShadowsocksServiceCallback
+import com.github.ssa.utils.Action
+import com.github.ssa.utils.broadcastReceiver
 import java.util.*
 
 /**

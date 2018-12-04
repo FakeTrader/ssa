@@ -18,15 +18,15 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.database
+package com.github.ssa.database
 
 import android.net.Uri
 import android.util.Base64
 import android.util.Log
-import com.github.shadowsocks.plugin.PluginConfiguration
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.Key
-import com.github.shadowsocks.utils.parsePort
+import com.github.ssa.plugin.PluginConfiguration
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.Key
+import com.github.ssa.utils.parsePort
 import com.j256.ormlite.field.DataType
 import com.j256.ormlite.field.DatabaseField
 import java.io.Serializable

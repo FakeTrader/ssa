@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.app.Activity
 import android.app.PendingIntent
@@ -43,21 +43,21 @@ import android.text.format.Formatter
 import android.util.Log
 import android.view.View
 import android.widget.TextView
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.acl.Acl
-import com.github.shadowsocks.acl.CustomRulesFragment
-import com.github.shadowsocks.aidl.IShadowsocksService
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
-import com.github.shadowsocks.bg.BaseService
-import com.github.shadowsocks.bg.Executable
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.database.ProfileManager
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.preference.OnPreferenceDataStoreChangeListener
-import com.github.shadowsocks.utils.Key
-import com.github.shadowsocks.utils.responseLength
-import com.github.shadowsocks.utils.thread
-import com.github.shadowsocks.widget.ServiceButton
+import com.github.ssa.App.Companion.app
+import com.github.ssa.acl.Acl
+import com.github.ssa.acl.CustomRulesFragment
+import com.github.ssa.aidl.IShadowsocksService
+import com.github.ssa.aidl.IShadowsocksServiceCallback
+import com.github.ssa.bg.BaseService
+import com.github.ssa.bg.Executable
+import com.github.ssa.database.Profile
+import com.github.ssa.database.ProfileManager
+import com.github.ssa.preference.DataStore
+import com.github.ssa.preference.OnPreferenceDataStoreChangeListener
+import com.github.ssa.utils.Key
+import com.github.ssa.utils.responseLength
+import com.github.ssa.utils.thread
+import com.github.ssa.widget.ServiceButton
 import com.mikepenz.materialdrawer.Drawer
 import com.mikepenz.materialdrawer.DrawerBuilder
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem

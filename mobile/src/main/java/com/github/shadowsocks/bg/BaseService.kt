@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.annotation.TargetApi
 import android.app.Service
@@ -31,19 +31,19 @@ import android.os.RemoteCallbackList
 import android.support.v4.os.UserManagerCompat
 import android.util.Base64
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.R
-import com.github.shadowsocks.acl.Acl
-import com.github.shadowsocks.acl.AclSyncJob
-import com.github.shadowsocks.aidl.IShadowsocksService
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.database.ProfileManager
-import com.github.shadowsocks.plugin.PluginConfiguration
-import com.github.shadowsocks.plugin.PluginManager
-import com.github.shadowsocks.plugin.PluginOptions
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.*
+import com.github.ssa.App.Companion.app
+import com.github.ssa.R
+import com.github.ssa.acl.Acl
+import com.github.ssa.acl.AclSyncJob
+import com.github.ssa.aidl.IShadowsocksService
+import com.github.ssa.aidl.IShadowsocksServiceCallback
+import com.github.ssa.database.Profile
+import com.github.ssa.database.ProfileManager
+import com.github.ssa.plugin.PluginConfiguration
+import com.github.ssa.plugin.PluginManager
+import com.github.ssa.plugin.PluginOptions
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.*
 import okhttp3.FormBody
 import okhttp3.OkHttpClient
 import okhttp3.Request

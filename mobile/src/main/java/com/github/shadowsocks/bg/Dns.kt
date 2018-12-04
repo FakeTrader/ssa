@@ -18,11 +18,11 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.BuildConfig
+import com.github.ssa.App.Companion.app
+import com.github.ssa.BuildConfig
 import org.xbill.DNS.*
 import java.io.IOException
 import java.net.*

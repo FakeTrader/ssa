@@ -18,15 +18,15 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.content.BroadcastReceiver
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.preference.DataStore
+import com.github.ssa.App.Companion.app
+import com.github.ssa.preference.DataStore
 
 class BootReceiver : BroadcastReceiver() {
     companion object {

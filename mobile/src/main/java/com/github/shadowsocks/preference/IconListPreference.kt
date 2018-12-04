@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.preference
+package com.github.ssa.preference
 
 import android.content.Context
 import android.graphics.drawable.Drawable

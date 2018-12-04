@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.widget
+package com.github.ssa.widget
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -29,8 +29,8 @@ import android.support.graphics.drawable.AnimatedVectorDrawableCompat
 import android.support.v7.widget.TooltipCompat
 import android.util.AttributeSet
 import android.view.View
-import com.github.shadowsocks.R
-import com.github.shadowsocks.bg.BaseService
+import com.github.ssa.R
+import com.github.ssa.bg.BaseService
 import java.util.*
 
 class ServiceButton @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :

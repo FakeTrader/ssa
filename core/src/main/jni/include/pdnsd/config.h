@@ -40,7 +40,7 @@
  * In normal operation, you will currently only need IPv4. */
 #define ENABLE_IPV4 1
 #define DEFAULT_IPV4 1
-#undef ENABLE_IPV6 
+#undef ENABLE_IPV6
 
 /* In all pdnsd versions before 1.0.6, DNS queries were always done over
  * TCP. Now, you have the choice. You can control that behaviour using
@@ -104,11 +104,11 @@
  * default: native; others: gdbm */
 #define CACHE_DBM DBM_NATIVE
 
-#define CONFDIR "/data/data/com.github.shadowsocks"
+#define CONFDIR "/data/data/com.github.ssa"
 
-#define CACHEDIR "/data/data/com.github.shadowsocks"
+#define CACHEDIR "/data/data/com.github.ssa"
 
-#define TEMPDIR "/data/data/com.github.shadowsocks/cache";
+#define TEMPDIR "/data/data/com.github.ssa/cache";
 
 /* This is for various debugging facilities that produce debug output and
  * double-check some values. You can enable debug messages with the -g option.

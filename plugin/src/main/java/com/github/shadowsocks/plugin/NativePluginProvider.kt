@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.plugin
+package com.github.ssa.plugin
 
 import android.content.ContentProvider
 import android.content.ContentValues
@@ -37,10 +37,10 @@ import android.os.ParcelFileDescriptor
  *    ...
  *    &lt;application&gt;
  *        ...
- *        &lt;provider android:name="com.github.shadowsocks.$PLUGIN_ID.BinaryProvider"
- *                     android:authorities="com.github.shadowsocks.plugin.$PLUGIN_ID.BinaryProvider"&gt;
+ *        &lt;provider android:name="com.github.ssa.$PLUGIN_ID.BinaryProvider"
+ *                     android:authorities="com.github.ssa.plugin.$PLUGIN_ID.BinaryProvider"&gt;
  *            &lt;intent-filter&gt;
- *                &lt;category android:name="com.github.shadowsocks.plugin.ACTION_NATIVE_PLUGIN" /&gt;
+ *                &lt;category android:name="com.github.ssa.plugin.ACTION_NATIVE_PLUGIN" /&gt;
  *            &lt;/intent-filter&gt;
  *        &lt;/provider&gt;
  *        ...

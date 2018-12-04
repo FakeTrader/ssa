@@ -18,19 +18,19 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.app.KeyguardManager
 import android.content.Context
 import android.graphics.drawable.Icon
 import android.service.quicksettings.Tile
 import android.support.annotation.RequiresApi
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.R
-import com.github.shadowsocks.ShadowsocksConnection
-import com.github.shadowsocks.aidl.IShadowsocksService
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
-import com.github.shadowsocks.preference.DataStore
+import com.github.ssa.App.Companion.app
+import com.github.ssa.R
+import com.github.ssa.ShadowsocksConnection
+import com.github.ssa.aidl.IShadowsocksService
+import com.github.ssa.aidl.IShadowsocksServiceCallback
+import com.github.ssa.preference.DataStore
 import android.service.quicksettings.TileService as BaseTileService
 
 @RequiresApi(24)

@@ -18,14 +18,14 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.app.backup.BackupAgentHelper
 import android.app.backup.FileBackupHelper
-import com.github.shadowsocks.utils.Key
+import com.github.ssa.utils.Key
 
 @Deprecated("Only used in API level < 23. For 6.0+, Auto Backup for Apps is used.")
 class ConfigBackupHelper : BackupAgentHelper() {
-    override fun onCreate() = addHelper("com.github.shadowsocks.database.profile", FileBackupHelper(this,
+    override fun onCreate() = addHelper("com.github.ssa.database.profile", FileBackupHelper(this,
             "../databases/" + Key.DB_PROFILE, "../databases/" + Key.DB_PUBLIC))
 }

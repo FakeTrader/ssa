@@ -18,12 +18,12 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.widget
+package com.github.ssa.widget
 
 import android.content.Context
 import android.support.v7.widget.GridLayout
 import android.util.AttributeSet
-import com.github.shadowsocks.R
+import com.github.ssa.R
 
 /**
  * Based on: http://stackoverflow.com/a/6212120/2245107

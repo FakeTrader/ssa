@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.utils
+package com.github.ssa.utils
 
 object Key {
     /**
@@ -66,9 +66,9 @@ object Key {
 }
 
 object Action {
-    const val SERVICE = "com.github.shadowsocks.SERVICE"
-    const val CLOSE = "com.github.shadowsocks.CLOSE"
-    const val RELOAD = "com.github.shadowsocks.RELOAD"
+    const val SERVICE = "com.github.ssa.SERVICE"
+    const val CLOSE = "com.github.ssa.CLOSE"
+    const val RELOAD = "com.github.ssa.RELOAD"
 
-    const val EXTRA_PROFILE_ID = "com.github.shadowsocks.EXTRA_PROFILE_ID"
+    const val EXTRA_PROFILE_ID = "com.github.ssa.EXTRA_PROFILE_ID"
 }

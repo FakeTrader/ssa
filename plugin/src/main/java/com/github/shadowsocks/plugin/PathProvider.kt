@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.plugin
+package com.github.ssa.plugin
 
 import android.database.MatrixCursor
 import android.net.Uri

@@ -1,6 +1,6 @@
-package com.github.shadowsocks.aidl;
+package com.github.ssa.aidl;
 
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback;
+import com.github.ssa.aidl.IShadowsocksServiceCallback;
 
 interface IShadowsocksService {
   int getState();

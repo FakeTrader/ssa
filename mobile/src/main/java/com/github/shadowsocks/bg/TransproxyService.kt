@@ -18,13 +18,13 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.preference.DataStore
+import com.github.ssa.App.Companion.app
+import com.github.ssa.preference.DataStore
 import java.io.File
 
 class TransproxyService : Service(), LocalDnsService.Interface {

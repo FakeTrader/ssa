@@ -18,13 +18,13 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.database
+package com.github.ssa.database
 
 import android.database.sqlite.SQLiteDatabase
 import android.support.v7.preference.PreferenceManager
 import android.text.TextUtils
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.utils.Key
+import com.github.ssa.App.Companion.app
+import com.github.ssa.utils.Key
 import com.j256.ormlite.android.AndroidDatabaseConnection
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper
 import com.j256.ormlite.dao.Dao

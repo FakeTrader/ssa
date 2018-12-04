@@ -1,15 +1,15 @@
-package com.github.shadowsocks.utils
+package com.github.ssa.utils
 
 import android.annotation.TargetApi
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.bg.BaseService
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.database.ProfileManager
-import com.github.shadowsocks.preference.DataStore
+import com.github.ssa.App.Companion.app
+import com.github.ssa.bg.BaseService
+import com.github.ssa.database.Profile
+import com.github.ssa.database.ProfileManager
+import com.github.ssa.preference.DataStore
 import java.io.File
 import java.io.IOException
 import java.io.ObjectInputStream

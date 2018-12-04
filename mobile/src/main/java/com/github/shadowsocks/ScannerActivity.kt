@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.app.Activity
 import android.content.Context
@@ -36,10 +36,10 @@ import android.util.Log
 import android.util.SparseArray
 import android.view.MenuItem
 import android.widget.Toast
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.database.ProfileManager
-import com.github.shadowsocks.utils.resolveResourceId
+import com.github.ssa.App.Companion.app
+import com.github.ssa.database.Profile
+import com.github.ssa.database.ProfileManager
+import com.github.ssa.utils.resolveResourceId
 import com.google.android.gms.samples.vision.barcodereader.BarcodeCapture
 import com.google.android.gms.samples.vision.barcodereader.BarcodeGraphic
 import com.google.android.gms.vision.Frame

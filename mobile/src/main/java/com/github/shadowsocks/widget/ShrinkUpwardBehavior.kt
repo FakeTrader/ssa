@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.widget
+package com.github.ssa.widget
 
 import android.animation.ValueAnimator
 import android.content.Context

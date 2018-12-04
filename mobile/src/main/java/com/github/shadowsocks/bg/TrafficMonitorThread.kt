@@ -18,11 +18,11 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.net.LocalSocket
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
+import com.github.ssa.App.Companion.app
 import java.io.File
 import java.io.IOException
 import java.nio.ByteBuffer

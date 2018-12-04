@@ -1,4 +1,4 @@
-package com.github.shadowsocks.utils
+package com.github.ssa.utils
 
 import org.junit.Assert
 import org.junit.Test

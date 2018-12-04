@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.database
+package com.github.ssa.database
 
 import org.junit.Assert
 import org.junit.Test

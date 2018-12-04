@@ -18,11 +18,11 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.widget
+package com.github.ssa.widget
 
 import android.support.design.widget.Snackbar
 import android.view.View
-import com.github.shadowsocks.R
+import com.github.ssa.R
 
 /**
  * @param view The view to find a parent from.

@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.acl
+package com.github.ssa.acl
 
 import org.junit.Assert
 import org.junit.Test

@@ -18,15 +18,15 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.acl
+package com.github.ssa.acl
 
 import android.content.Context
 import android.support.v7.util.SortedList
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.Subnet
-import com.github.shadowsocks.utils.asIterable
+import com.github.ssa.App.Companion.app
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.Subnet
+import com.github.ssa.utils.asIterable
 import java.io.File
 import java.io.IOException
 import java.io.Reader

@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.app.Activity
 import android.content.BroadcastReceiver
@@ -33,20 +33,20 @@ import android.support.v7.preference.Preference
 import android.support.v7.preference.PreferenceDataStore
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.database.ProfileManager
-import com.github.shadowsocks.plugin.PluginConfiguration
-import com.github.shadowsocks.plugin.PluginContract
-import com.github.shadowsocks.plugin.PluginManager
-import com.github.shadowsocks.plugin.PluginOptions
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.preference.IconListPreference
-import com.github.shadowsocks.preference.OnPreferenceDataStoreChangeListener
-import com.github.shadowsocks.preference.PluginConfigurationDialogFragment
-import com.github.shadowsocks.utils.Action
-import com.github.shadowsocks.utils.DirectBoot
-import com.github.shadowsocks.utils.Key
+import com.github.ssa.App.Companion.app
+import com.github.ssa.database.Profile
+import com.github.ssa.database.ProfileManager
+import com.github.ssa.plugin.PluginConfiguration
+import com.github.ssa.plugin.PluginContract
+import com.github.ssa.plugin.PluginManager
+import com.github.ssa.plugin.PluginOptions
+import com.github.ssa.preference.DataStore
+import com.github.ssa.preference.IconListPreference
+import com.github.ssa.preference.OnPreferenceDataStoreChangeListener
+import com.github.ssa.preference.PluginConfigurationDialogFragment
+import com.github.ssa.utils.Action
+import com.github.ssa.utils.DirectBoot
+import com.github.ssa.utils.Key
 import com.takisoft.fix.support.v7.preference.EditTextPreference
 import com.takisoft.fix.support.v7.preference.PreferenceFragmentCompatDividers
 

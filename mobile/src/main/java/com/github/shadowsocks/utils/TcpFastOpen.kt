@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.utils
+package com.github.ssa.utils
 
 import eu.chainfire.libsuperuser.Shell
 import java.io.File

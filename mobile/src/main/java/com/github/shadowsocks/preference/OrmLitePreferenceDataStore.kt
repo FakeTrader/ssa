@@ -18,10 +18,10 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.preference
+package com.github.ssa.preference
 
 import android.support.v7.preference.PreferenceDataStore
-import com.github.shadowsocks.database.KeyValuePair
+import com.github.ssa.database.KeyValuePair
 import com.j256.ormlite.dao.Dao
 import java.util.HashSet
 

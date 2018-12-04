@@ -18,13 +18,13 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.tasker
+package com.github.ssa.tasker
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import com.github.shadowsocks.R
-import com.github.shadowsocks.database.ProfileManager
+import com.github.ssa.R
+import com.github.ssa.database.ProfileManager
 import com.twofortyfouram.locale.api.Intent as ApiIntent
 
 class Settings(bundle: Bundle?) {

@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.annotation.SuppressLint
 import android.content.ClipData
@@ -38,14 +38,14 @@ import android.view.*
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.bg.BaseService
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.database.ProfileManager
-import com.github.shadowsocks.plugin.PluginConfiguration
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.Action
-import com.github.shadowsocks.widget.UndoSnackbarManager
+import com.github.ssa.App.Companion.app
+import com.github.ssa.bg.BaseService
+import com.github.ssa.database.Profile
+import com.github.ssa.database.ProfileManager
+import com.github.ssa.plugin.PluginConfiguration
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.Action
+import com.github.ssa.widget.UndoSnackbarManager
 import net.glxn.qrgen.android.QRCode
 
 class ProfilesFragment : ToolbarFragment(), Toolbar.OnMenuItemClickListener {
@@ -55,7 +55,7 @@ class ProfilesFragment : ToolbarFragment(), Toolbar.OnMenuItemClickListener {
          */
         var instance: ProfilesFragment? = null
 
-        private const val KEY_URL = "com.github.shadowsocks.QRCodeDialog.KEY_URL"
+        private const val KEY_URL = "com.github.ssa.QRCodeDialog.KEY_URL"
     }
 
     /**

@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.utils
+package com.github.ssa.utils
 
 import java.net.InetAddress
 import java.util.*

@@ -18,12 +18,12 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.acl.Acl
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.parseNumericAddress
+import com.github.ssa.App.Companion.app
+import com.github.ssa.acl.Acl
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.parseNumericAddress
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.File

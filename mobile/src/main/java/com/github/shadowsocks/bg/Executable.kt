@@ -18,12 +18,12 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.text.TextUtils
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.JniHelper
+import com.github.ssa.App.Companion.app
+import com.github.ssa.JniHelper
 import java.io.File
 import java.io.FileNotFoundException
 

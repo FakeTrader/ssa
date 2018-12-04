@@ -18,14 +18,14 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.database
+package com.github.ssa.database
 
 import android.database.sqlite.SQLiteCantOpenDatabaseException
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.ProfilesFragment
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.DirectBoot
+import com.github.ssa.App.Companion.app
+import com.github.ssa.ProfilesFragment
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.DirectBoot
 import java.io.IOException
 import java.sql.SQLException
 

@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.plugin
+package com.github.ssa.plugin
 
 /**
  * Base class for a help activity. A help activity is started when user taps help when configuring options for your
@@ -30,10 +30,10 @@ package com.github.shadowsocks.plugin
  *        ...
  *        &lt;activity android:name=".HelpActivity"&gt;
  *            &lt;intent-filter&gt;
- *                &lt;action android:name="com.github.shadowsocks.plugin.ACTION_HELP"/&gt;
+ *                &lt;action android:name="com.github.ssa.plugin.ACTION_HELP"/&gt;
  *                &lt;category android:name="android.intent.category.DEFAULT"/&gt;
  *                &lt;data android:scheme="plugin"
- *                         android:host="com.github.shadowsocks"
+ *                         android:host="com.github.ssa"
  *                         android:path="/$PLUGIN_ID"/&gt;
  *            &lt;/intent-filter&gt;
  *        &lt;/activity&gt;

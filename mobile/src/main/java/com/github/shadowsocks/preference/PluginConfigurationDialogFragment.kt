@@ -18,20 +18,20 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.preference
+package com.github.ssa.preference
 
 import android.support.v7.app.AlertDialog
 import android.view.View
 import android.widget.EditText
-import com.github.shadowsocks.ProfileConfigActivity
-import com.github.shadowsocks.plugin.PluginContract
-import com.github.shadowsocks.plugin.PluginManager
+import com.github.ssa.ProfileConfigActivity
+import com.github.ssa.plugin.PluginContract
+import com.github.ssa.plugin.PluginManager
 import com.takisoft.fix.support.v7.preference.EditTextPreferenceDialogFragmentCompat
 
 class PluginConfigurationDialogFragment : EditTextPreferenceDialogFragmentCompat() {
     companion object {
         const val PLUGIN_ID_FRAGMENT_TAG =
-                "com.github.shadowsocks.preference.PluginConfigurationDialogFragment.PLUGIN_ID"
+                "com.github.ssa.preference.PluginConfigurationDialogFragment.PLUGIN_ID"
     }
 
     private lateinit var editText: EditText

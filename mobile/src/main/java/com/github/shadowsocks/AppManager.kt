@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.Manifest
 import android.animation.Animator
@@ -46,13 +46,13 @@ import android.widget.ImageView
 import android.widget.Switch
 import com.futuremind.recyclerviewfastscroll.FastScroller
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.database.ProfileManager
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.DirectBoot
-import com.github.shadowsocks.utils.Key
-import com.github.shadowsocks.utils.resolveResourceId
-import com.github.shadowsocks.utils.thread
+import com.github.ssa.App.Companion.app
+import com.github.ssa.database.ProfileManager
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.DirectBoot
+import com.github.ssa.utils.Key
+import com.github.ssa.utils.resolveResourceId
+import com.github.ssa.utils.thread
 import java.util.concurrent.atomic.AtomicBoolean
 
 class AppManager : AppCompatActivity(), Toolbar.OnMenuItemClickListener {

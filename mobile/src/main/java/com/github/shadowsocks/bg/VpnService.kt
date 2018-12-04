@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.bg
+package com.github.ssa.bg
 
 import android.annotation.TargetApi
 import android.app.Service
@@ -31,15 +31,15 @@ import android.os.IBinder
 import android.os.ParcelFileDescriptor
 import android.support.v4.os.BuildCompat
 import android.util.Log
-import com.github.shadowsocks.App.Companion.app
-import com.github.shadowsocks.JniHelper
-import com.github.shadowsocks.MainActivity
-import com.github.shadowsocks.R
-import com.github.shadowsocks.VpnRequestActivity
-import com.github.shadowsocks.acl.Acl
-import com.github.shadowsocks.preference.DataStore
-import com.github.shadowsocks.utils.Subnet
-import com.github.shadowsocks.utils.parseNumericAddress
+import com.github.ssa.App.Companion.app
+import com.github.ssa.JniHelper
+import com.github.ssa.MainActivity
+import com.github.ssa.R
+import com.github.ssa.VpnRequestActivity
+import com.github.ssa.acl.Acl
+import com.github.ssa.preference.DataStore
+import com.github.ssa.utils.Subnet
+import com.github.ssa.utils.parseNumericAddress
 import java.io.File
 import java.io.FileDescriptor
 import java.io.IOException

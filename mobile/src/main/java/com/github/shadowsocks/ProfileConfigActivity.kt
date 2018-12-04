@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks
+package com.github.ssa
 
 import android.app.Activity
 import android.content.Intent
@@ -26,8 +26,8 @@ import android.os.Bundle
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
-import com.github.shadowsocks.plugin.PluginContract
-import com.github.shadowsocks.preference.DataStore
+import com.github.ssa.plugin.PluginContract
+import com.github.ssa.preference.DataStore
 
 class ProfileConfigActivity : AppCompatActivity() {
     companion object {

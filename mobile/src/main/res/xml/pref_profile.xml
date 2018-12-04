@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:app="http://schemas.android.com/apk/res/com.github.shadowsocks">
+                  xmlns:app="http://schemas.android.com/apk/res/com.github.ssa">
 
     <AutoSummaryEditTextPreference
             android:key="profileName"
@@ -68,7 +68,7 @@
     <PreferenceCategory
             android:title="@string/plugin">
 
-        <com.github.shadowsocks.preference.IconListPreference
+        <com.github.ssa.preference.IconListPreference
                 android:key="plugin"
                 android:persistent="false"
                 android:summary="%s"

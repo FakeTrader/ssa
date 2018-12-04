@@ -18,10 +18,10 @@
  *                                                                             *
  *******************************************************************************/
 
-package com.github.shadowsocks.plugin
+package com.github.ssa.plugin
 
 import android.util.Log
-import com.github.shadowsocks.utils.Commandline
+import com.github.ssa.utils.Commandline
 import java.util.*
 
 class PluginConfiguration(val pluginsOptions: Map<String, PluginOptions>, val selected: String) {
