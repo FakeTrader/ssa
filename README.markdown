@@ -42,7 +42,22 @@ export KEY_PASSWORD="yourpassword"
 
 ```
 
+Outputs:
 
+```
+mobile/build/outputs/apk
+├── debug
+│   ├── mobile-arm64-v8a-debug.apk
+│   ├── mobile-armeabi-v7a-debug.apk
+│   ├── mobile-universal-debug.apk
+│   ├── mobile-x86-debug.apk
+│   └── output.json
+└── release
+    ├── mobile-arm64-v8a-release.apk
+    ├── mobile-armeabi-v7a-release.apk
+    ├── mobile-universal-release.apk
+    ├── mobile-x86-release.apk
+    └── output.json
 ```
 
 * * *
