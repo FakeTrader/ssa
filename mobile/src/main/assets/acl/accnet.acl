@@ -2849,6 +2849,7 @@
 
 
 [white_list]
+(^|\.)ankiweb\.net$
 (^|\.)4tern\.com$
 (^|\.)adorama\.com$
 (^|\.)akiba-web\.com$
